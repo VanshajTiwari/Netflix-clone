@@ -1,0 +1,225 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+input {
+    outline: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    background-color: #222222;
+
+    overflow-x: hidden;
+}
+
+.intromain {
+    background-image: url(./netflix\ land.jpg);
+    height: 100vh;
+    width: 100vw;
+}
+
+.logoimage {
+    width: 200px;
+    height: 60px;
+    margin: 20% 20%;
+}
+
+nav {
+    display: flex;
+
+}
+
+.undernav {
+    position: absolute;
+    right: 4%;
+    top: 4%;
+}
+
+.options {
+    width: 100px;
+    height: 40px;
+    border-radius: 6px;
+}
+
+.signbtn {
+    width: 100px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 6px;
+    color: white;
+    background-color: red;
+    font-size: 17px;
+    border-width: 0px;
+    cursor: pointer;
+}
+
+.middiv {
+    color: white;
+    font-size: 30px;
+    width: 50vw;
+    min-width: 500px;
+    height: 50vh;
+    min-height: 500px;
+    margin: auto;
+    position: relative;
+    top: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.signup {
+    width: 700px;
+    height: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.signup>input {
+    width: 60vw;
+    height: 60px;
+    font-size: 30px;
+    padding-inline-start: 20px;
+}
+
+
+.signup>button {
+    width: 20vw;
+    min-width: 200px;
+    height: 60px;
+    border-width: 0px;
+    background-color: red;
+    border-width: 0px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+
+.con1 {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 40vh;
+    font-size: 20px;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5%;
+}
+
+.dummyimg {
+    position: relative;
+    top: -20px;
+    min-width: 300px;
+    min-height: 200px;
+    width: 20%;
+    height: 90%;
+    max-height: 100px;
+}
+
+footer {
+    padding-top: 20px;
+    background-color: black;
+    margin-top: 10px;
+    height: 500px;
+}
+
+.outoot {
+    min-width: 500px;
+    width: 40vw;
+    margin: auto;
+    position: relative;
+}
+
+.lowerdiv {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    height: 500px;
+
+}
+
+.lowerdiv>div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.lowerdiv>div>a {
+    color: white;
+    background-color: rgb(48, 48, 48);
+    ;
+    white-space: nowrap;
+    width: 40%;
+    min-width: 250px;
+    height: 40px;
+    border: 0px solid white;
+    text-align: left;
+    border-radius: 2px;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-left: 7px;
+    text-decoration: none;
+    position: relative;
+    left: 30%;
+    margin: 2px;
+
+}
+
+
+.lolowerdiv {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footercon {
+    display: flex;
+    height: 20vh;
+    min-height: 100px;
+
+}
+
+.footercon>ul>li {
+    white-space: nowrap;
+    margin-top: 4vh;
+    margin-right: 2vw;
+}
+
+.footercon>ul>li>a,
+footer>div>a {
+    color: grey;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+footer>div>select {
+    width: 70px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 6px;
+    margin-bottom: 3vh;
+    margin-top: 10vh;
+    position: relative;
+}
+
+footer>div>p {
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: 14px;
+    color: grey;
+}
